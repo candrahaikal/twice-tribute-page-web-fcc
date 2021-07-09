@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+
+/* navbar */
+nav{
+    position: sticky;
+    z-index: 5;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 30px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+nav ul li a:hover{
+    color: #2b2b2b;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: auto;
+    font-weight: 600;
+    color: cornsilk;
+    transition: 0.3s;
+}
+/* end navbar */
+
+
+/* main */
+main{
+    text-align: center;
+}
+h1{
+    padding-top: 100px;
+}
+main h1 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display';
+    font-size: 180px;
+    line-height: 100px;
+}
+main h4 a{
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#main-img{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    max-width: 70%;
+    margin:  20px auto 0 auto;
+}
+#image{
+    width: 100%;
+
+}
+#caption-img{
+    margin-top: 10px;
+}
+/* end main */
+
+
+
+/* Latest Album */
+#latest-album h2{
+    font-size: 30px;
+    margin: 100px 0 30px 0;
+}
+#latest-album ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.album-img{
+    width: 250px;
+    margin: 0 20px;
+    transition: .27s;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.3);
+}
+.album-img:hover{
+    transform: translateY(-5px);
+}
+.caption-album {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.caption-album p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.caption-album .date{
+    font-weight: 400;
+    font-size: 12px;
+}
+/* end Latest Album */
+
+
+/* follow */
+#follow{
+    margin-top: 100px;
+    background-color: black;
+}
+#follow h2{
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.useful-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.useful-links li{
+    margin: 20px 15px;
+}
+.useful-links a{
+    color: white;
+    font-size: 35px;
+}
+/* end follow */
